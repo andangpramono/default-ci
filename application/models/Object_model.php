@@ -90,7 +90,7 @@ class Object_model extends CI_Model {
 
     ///// custom /////
  
-    ///// custom datatables server side //////
+    ///// datatables server side //////
 
     private function _get_datatables_query(){
         $_POST=$this->input->post();
