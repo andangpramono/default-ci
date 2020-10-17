@@ -88,7 +88,7 @@ class Object_model extends CI_Model {
 
     ///// delete /////
  
-    ///// datatables server side //////
+    ///// custom datatables server side //////
 
     private function _get_datatables_query(){
         $_POST=$this->input->post();
