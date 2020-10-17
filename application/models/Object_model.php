@@ -87,6 +87,8 @@ class Object_model extends CI_Model {
     }
 
     ///// delete /////
+
+    ///// custom /////
  
     ///// custom datatables server side //////
 
@@ -146,7 +148,5 @@ class Object_model extends CI_Model {
         $this->db->from($this->table);
         return $this->db->count_all_results();
     }
-
-        ///// custom /////
  
 }
